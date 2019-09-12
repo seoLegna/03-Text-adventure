@@ -58,7 +58,7 @@
           },
           {
             "verb": "WEST",
-            "target": "LOC3",
+            "target": "",
             "condition": ""
           },
           {
@@ -71,14 +71,14 @@
       },
       "LOC2": {
         "name": "The galadrielic tree",
-        "desc": "After traversing for what seemed like hours through the swampy and draining terrain\r\nan enourmous magnificent biennil stops you. It has gleaming leaves and a hardned bark\r\nlike a tree born in gods own park. After shaking yourself out of this\r\nreverent stupor you realise what lied below this enormous structre. Under it lied several heaps of creatures....\r\nwhich you, at first look mistook for its roots. You then realize the reason for its abnormal size...\r\nOnly one word comes to your mind after this shaking sight.. \r\n'Galadriellic'.", 
+        "desc": "After traversing for what seemed like days through the swampy and draining terrain\r\nan enourmous magnificent biennil stops you. It has gleaming leaves and a hardned bark\r\nlike a tree born in gods own park. After shaking yourself out of this\r\nreverent stupor you realise what lied below this enormous structre. Under it lied several heaps of creatures....\r\nwhich you, at first look mistook for its roots. You then realize the reason for its abnormal size...\r\nOnly one word comes to your mind after this shaking sight.. \r\n'Galadriellic'.", 
         "exits": [
         ],
         "inventory": []
       },
       "LOC3": {
         "name": "The abnormal clearing",
-        "desc": "",
+        "desc": "Tired and spent you lean against a tree for some relief, you close your eyes and collect yourself.\r\nYou open your eyes very gently and see...\r\na vast open feild with no trees. It is such an unsual sight from what you consider now to be the regular\r\n that you slap yourself to wake from what you think is the consequence of exhaustion,\r\nbut this impossible sight does not vanish. You are baffled and belive this to be somekind of abnormailty untill...\r\nyou look at the scenery infront of you a little diffretnly. You now see the enormous numbers of stumps that throng the ground infront of you, \r\nthe shear number of them pushes you back. You realize the cruelty depicted by the scene infront and \r\nfear the race you yourself belong to.",
         "exits": [
         ],
         "inventory": []
