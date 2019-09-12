@@ -43,8 +43,8 @@
     ],
     "rooms": {
       "START": {
-        "name": "Starting place",
-        "desc": "This is the place to start!",
+        "name": "The centre of the Amazon rainforest",
+        "desc": "This is the great Amazon rainforest. \r\nThere are trees and rich foliage everywhere. \r\nEverything seems to be.... alive.",
         "exits": [
           {
             "verb": "NORTH",
@@ -53,25 +53,60 @@
           },
           {
             "verb": "SOUTH",
-            "target": "LOC32",
+            "target": "LOC3",
             "condition": ""
           },
           {
             "verb": "WEST",
-            "target": "LOC2",
+            "target": "LOC3",
             "condition": ""
           },
           {
             "verb": "EAST",
-            "target": "LOC2",
+            "target": "LOC4",
             "condition": ""
           }
         ],
         "inventory": []
       },
       "LOC2": {
-        "name": "Location 2",
-        "desc": "Here is the second location.",
+        "name": "The galadrielic tree",
+        "desc": "After traversing for what seemed like hours through the swampy and draining terrain\r\nan enourmous magnificent biennil stops you. It has gleaming leaves and a hardned bark\r\nlike a tree born in gods own park. After shaking yourself out of this\r\nreverent stupor you realise what lied below this enormous structre. Under it lied several heaps of creatures....\r\nwhich you, at first look mistook for its roots. You then realize the reason for its abnormal size...\r\nOnly one word comes to your mind after this shaking sight.. \r\n'Galadriellic'.", 
+        "exits": [
+        ],
+        "inventory": []
+      },
+      "LOC3": {
+        "name": "The abnormal clearing",
+        "desc": "",
+        "exits": [
+        ],
+        "inventory": []
+      },
+      "LOC4": {
+        "name": "The stream",
+        "desc": "Here is the fourth location.",
+        "exits": [
+        ],
+        "inventory": []
+      },
+      "LOC5": {
+        "name": "An unsual encounter",
+        "desc": "Here is the fifth location.",
+        "exits": [
+        ],
+        "inventory": []
+      },
+      "LOC6": {
+        "name": "The black forest",
+        "desc": "Here is the sixth location.",
+        "exits": [
+        ],
+        "inventory": []
+      },
+      "LOC7": {
+        "name": "The basin",
+        "desc": "Here is the seventh location.",
         "exits": [
         ],
         "inventory": []
