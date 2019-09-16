@@ -12,8 +12,66 @@ fallen_branch = 0
 required = print("\n\nOnly use A,B and C or Yes and No")
 time.sleep(1)
 
+axe = 0
+
 def the_abnormal_clearing():
-    return True
+    print("""
+    The abnormal clearing
+
+    Tired and spent you lean against a tree for some relief, you close your eyes and collect yourself.
+    You open your eyes very gently and see...
+    a vast open feild with no trees. It is such an unsual sight from what you consider now to be the regular 
+    that you slap yourself to wake from what you think is the consequence of exhaustion,
+    but this impossible sight does not vanish. You are baffled and belive this to be somekind of abnormailty untill...
+    you look at the scenery infront of you a little diffretnly. You now see the enormous numbers of stumps that throng the ground infront of you, 
+    the shear number of them pushes you back as you start to 
+    remember the story you and your friends heard before comeing here.
+    One stump per person.... 
+    That is the only line that flashes through your head. 
+
+    """
+    )
+    print("The stump nearest to you has an axe burried in it.")
+    if fallen_branch == 1:
+        print("""
+        Do you want to pick up the axe?
+        Please answer with yes or no.
+        """"
+        )
+        fool = input(">>> ")
+        if fool in yes or no: 
+            print("""
+            Sorry you can't pick it up
+            should have waited huh?
+            Lol.
+
+            """
+            )
+    elif fallen_branch == 0:
+        print("""
+        Do you want to pick up the axe?
+        Please answer with yes or no.
+        """"
+        )
+        axe_choice = input(">>> ")
+        if axe_choice in yes:
+             axe = 1
+        print("""
+        Great, you waited and got an axe!
+        Congratulations! 
+        """
+        )
+
+       
+    
+
+    
+    print("What will you do now? ")
+
+
+
+
+    
 
 def the_galadrielic_tree():
     print("""
@@ -43,6 +101,8 @@ def the_galadrielic_tree():
         print("You chose to pick up the branch")
     else: 
         print("You did not pick up the branch")
+
+
     print("""
     What will you do now?
 
