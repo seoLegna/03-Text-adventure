@@ -3,8 +3,8 @@ import time
 answer_a = "A".lower()
 answer_b = "B".lower()
 answer_c = "C".lower()
-yes = ["Yes", "yes", "y", "Y"]
-no = ["No", "no", "n", "N"]
+yes = ["Yes", "yes", "y", "Y", "YES"]
+no = ["No", "no", "n", "N", "NO"]
 
 axe = 0
 fallen_branch = 0
