@@ -14,7 +14,7 @@ time.sleep(1)
 
 axe = 0
 
-def the_abnormal_clearing():
+def the_abnormal_clearing1():
     print("""
     The abnormal clearing
 
@@ -32,14 +32,16 @@ def the_abnormal_clearing():
     """
     )
     print("The stump nearest to you has an axe burried in it.")
+    time.sleep(2)
+    fallen_branch = 1
     if fallen_branch == 1:
         print("""
         Do you want to pick up the axe?
         Please answer with yes or no.
-        """"
+        """
         )
         fool = input(">>> ")
-        if fool in yes or no: 
+        if fool in yes: 
             print("""
             Sorry you can't pick it up
             should have waited huh?
@@ -47,33 +49,199 @@ def the_abnormal_clearing():
 
             """
             )
-    elif fallen_branch == 0:
+        elif fool in no:
+            print("""
+            You decline it, your smart, you know your mistakes.
+            Should have waited huh?
+            Lol.
+
+            """
+            )
+        else:
+            required
+            the_abnormal_clearing()
+    else: 
+        print("That was not a valid input. Please answer with yes and no only.")
+        the_abnormal_clearing()
+
+    if fallen_branch == 1:
+        time.sleep(7)
         print("""
-        Do you want to pick up the axe?
-        Please answer with yes or no.
-        """"
-        )
-        axe_choice = input(">>> ")
-        if axe_choice in yes:
-             axe = 1
-        print("""
-        Great, you waited and got an axe!
-        Congratulations! 
+        You run right past the axe and keep running for a while, untill....
+        It appears, almost from nowhere. 
+        It was an abomination something so horrendous only looking at it made you uneasy.
+        It was an humanoid... thing, coverd with green coloured rags, hunched and holding something
+        very... unusual, it was holding just a very sharp branch, about the size of it's own body.
+
+        You step-back cowering at this ugly monster.
+        'You are going to kill me aren't you. Then do it just like you slaughtred all my fellow 
+        resarchers and archeologists. We should have heeded the warnings of the people of the closeby village.
+        What even are you?' You ask in a very shakey and angry voice.
+
+        It replies, 'I.... I am thy death... thee shall scream and grow the great tree. 
+        All the others I shall cut and... remain only shall the great tree.'
+
+        You realize that this is a mad-man.
+
+        You remember the branch that you hold and run at it while brandishing it, 
+        desperately trying to protect your life.
+
+        With a flick of it's wrist it skweers you.
+
+        You vomit blood while screeming with agony and anger.
+        It laughs and watches you bleed to death.
+
+        You bleekly see the ground before loosing all sense.
+
+
+        You open your eyes...
+        You remember nothing
+
+
+        This is the amazon rainforest. There are rich trees and foliage everywhere.......
+
+        THE END
+
+
+
         """
         )
+        time.sleep(30)
+        print("Do you want to play again? ")
+        choose = input(">>> ")
+        if choose in yes:
+            intro()
+        elif choose in no:
+            print("Thank you for playing.")
+    else:
+        required
+        the_abnormal_clearing()
 
-       
+def the_abnormal_clearing():
+    fallen_branch = 0
+    print("""
+    The abnormal clearing
+
+    Tired and spent you lean against a tree for some relief, you close your eyes and collect yourself.
+    You open your eyes very gently and see...
+    a vast open feild with no trees. It is such an unsual sight from what you consider now to be the regular 
+    that you slap yourself to wake from what you think is the consequence of exhaustion,
+    but this impossible sight does not vanish. You are baffled and belive this to be somekind of abnormailty untill...
+    you look at the scenery infront of you a little diffretnly. You now see the enormous numbers of stumps that throng the ground infront of you, 
+    the shear number of them pushes you back as you start to 
+    remember the story you and your friends heard before comeing here.
+    One stump per person.... 
+    That is the only line that flashes through your head. 
+
+    """
+    )
+    print("The stump nearest to you has an axe burried in it.")
+    time.sleep(2)
+    print("""
+        Do you want to pick up the axe?
+        Please answer with yes or no.
+        """
+        )
+    fool = input(">>> ")
+    if fool in yes:
+        axe = 1
+    elif fool in no:
+        axe = 0
+    else:
+        required
+        the_abnormal_clearing()
+        
+
+    if axe == 1:
+        time.sleep(7)
+        print("""
+        You pulled the axe out of the tree stump near you and turned around fast.
+        You could see nothing but the feeling of dread and being watched was still present, 
+        you were just wating for one movement to hack your enemy into pices.
+        
+
+        Then you saw it...
+
+        An abomination, something so horrendous only looking at it made you uneasy.
+        It was an humanoid... thing, coverd with green coloured rags, hunched and holding something
+        very... unusual, it was holding just a very sharp branch, about the size of it's own body.
+
+        You asked it with the raw anger you were feeling, 'Why? why do you do this to people?'.
+
+        In a very cold and raw voice it replied, 'answer the dead men I do not'
+        and suddeny jumped at you with terrifying speed and agility with you did not expect or belive this 
+        morbid thing could achive.
+
+        You countered his speedy jab by springing back. It immidietly changed the 'spears' direction and 
+        stabbed you in your stomach.
+
+        You fell on the ground, blood driping from the corners of your mouth.
+        It was so close to you that now you could smell it and god did it smell disgusting.
+        You looked at it and saw it laughing. 
+
+        That was it, something snapped inside of you and you swinged your axe at his feet with blinding speed.
+        It tried to jump but it just didn't expect it, you cleanly chopped off both of it's legs from under it.
+        It howled in agony and fell to the ground beside you. You, somehow with what felt like superhuman 
+        reflexes did not miss this opportunity and sliced it's head clean off.
+
+        It was now dead. 
+        You were happy but quickly dying due to bloodloss and internal bleeding.
+
+        You try to stand but you can't...
+
+        You lie on the ground beside this dead abomination and look up at the sky,
+        then suddenly everything goes blank.
+
+
+
+        You open your eyes and you remember nothing
+
+
+        This is the amazon rainforest. There are rich trees and foliage everywhere.......
+
+        THE END
+
+
+        """
+        ) 
+        time.sleep(30)
+        print("Do you want to play again? ")
+        choose = input(">>> ")
+        if choose in yes:
+            intro()
+        elif choose in no:
+            print("Thank you for playing.")
+    elif axe == 0:
+        time.sleep(7)
+        print("""
+        You run right past the axe and keep running for a while, untill....
+        It appears, almost from nowhere. 
+        It was an abomination something so horrendous only looking at it made you uneasy.
+        It was an humanoid... thing, coverd with green coloured rags, hunched and holding something
+        very... unusual, it was holding just a very sharp branch, about the size of it's own body.
+
+        You step-back cowering at this ugly monster.
+        You have no weapon.
+
+        You fall to  your knees and close your eyes, accepting your fate.
+
+        You are dead
+
+        Try again
+
+
+        """
+        )
+        time.sleep(10)
+        intro()
+    else:
+        return required
+        the_abnormal_clearing()
     
 
-    
-    print("What will you do now? ")
-
-
-
-
-    
 
 def the_galadrielic_tree():
+    fallen_branch = 0
     print("""
     You ran and ran until you could no longer.
     You finally stop and catch your breath, hunched on your knees you see blood on the ground.
@@ -170,7 +338,9 @@ def the_galadrielic_tree():
         )
         time.sleep(5)
         intro()
-    elif choice == answer_c:
+    elif choice == answer_c and fallen_branch == 1:
+        the_abnormal_clearing1()
+    elif choice == answer_c and fallen_branch == 0:
         the_abnormal_clearing()
     else:
         return required
