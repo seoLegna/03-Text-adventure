@@ -9,7 +9,7 @@ no = ["No", "no", "n", "N"]
 axe = 0
 fallen_branch = 0
 
-required = print("\n\nOnly use A,B and C or Yes and No")
+print("Only use A, B and C or Yes and No or you will be sent back to your recent check point.")
 time.sleep(1)
 
 axe = 0
@@ -23,7 +23,8 @@ def the_abnormal_clearing1():
     a vast open feild with no trees. It is such an unsual sight from what you consider now to be the regular 
     that you slap yourself to wake from what you think is the consequence of exhaustion,
     but this impossible sight does not vanish. You are baffled and belive this to be somekind of abnormailty untill...
-    you look at the scenery infront of you a little diffretnly. You now see the enormous numbers of stumps that throng the ground infront of you, 
+    you look at the scenery infront of you a little diffretnly. You now see the enormous numbers of stumps 
+    that throng the ground infront of you, 
     the shear number of them pushes you back as you start to 
     remember the story you and your friends heard before comeing here.
     One stump per person.... 
@@ -58,7 +59,6 @@ def the_abnormal_clearing1():
             """
             )
         else:
-            required
             the_abnormal_clearing()
     else: 
         print("That was not a valid input. Please answer with yes and no only.")
@@ -114,7 +114,6 @@ def the_abnormal_clearing1():
         elif choose in no:
             print("Thank you for playing.")
     else:
-        required
         the_abnormal_clearing()
 
 def the_abnormal_clearing():
@@ -127,7 +126,8 @@ def the_abnormal_clearing():
     a vast open feild with no trees. It is such an unsual sight from what you consider now to be the regular 
     that you slap yourself to wake from what you think is the consequence of exhaustion,
     but this impossible sight does not vanish. You are baffled and belive this to be somekind of abnormailty untill...
-    you look at the scenery infront of you a little diffretnly. You now see the enormous numbers of stumps that throng the ground infront of you, 
+    you look at the scenery infront of you a little diffretnly. You now see the enormous numbers of stumps 
+    that throng the ground infront of you, 
     the shear number of them pushes you back as you start to 
     remember the story you and your friends heard before comeing here.
     One stump per person.... 
@@ -148,7 +148,6 @@ def the_abnormal_clearing():
     elif fool in no:
         axe = 0
     else:
-        required
         the_abnormal_clearing()
         
 
@@ -235,7 +234,6 @@ def the_abnormal_clearing():
         time.sleep(10)
         intro()
     else:
-        return required
         the_abnormal_clearing()
     
 
@@ -343,7 +341,6 @@ def the_galadrielic_tree():
     elif choice == answer_c and fallen_branch == 0:
         the_abnormal_clearing()
     else:
-        return required
         intro()
 
 
@@ -405,7 +402,6 @@ def intro():
         time.sleep(15)
         intro()
     else:
-        return required
         intro()
 
 intro()
