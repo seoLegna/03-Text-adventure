@@ -1,0 +1,38 @@
+Name: Mark Borkowski
+Date: 9/28/2019
+Project: Text Adventure
+Peer's repository: https://github.com/seoLegna/03-Text-adventure.git
+
+
+
+What is something you learned by reviewing your peer's project?
+I learned that there is no escaping the amazon (at least in this update :)).
+ 
+
+What is something you saw in your peer's project that you would like to apply to your own programming projects?
+I really enjoyed Shantanu's writing and story telling elements! I saw their tellatale_game.py file and read through their story and enjoyed the plot build up so far.
+ 
+
+What suggestions would you have for your peer to improve his/her code?
+We just need to get your tellatale_game.py file up to snuff so it doesn't get stuck in a loop  or somehow successfully convert it to the .json file format keeping the A,B,C and Yes and No mechanics.
+ 
+
+What could have been clearer or better commented?
+There were not too many comments, but the intention of the code in tellatale_game.py was quite clear. The only thing I was slightly confused about was using the branch as a weapon and at what point the player would get the branch.
+Also I was not sure which .py file to run. I tried both, but got a loop by choosing A, Run with the tellatale_game.py and got stuck with no exits on main.py by going NORTH. 
+ 
+
+Was there anything in the code that was confusing to you? If so, what?
+I was wondering why there was a function called the_abnormal_clearing1 and the_abnormal_clearing. Maybe you just planned to call the functions from main.py or your .json file. Not sure. 
+ 
+
+Does the repository contain an appropriate LICENSE?
+Yes it does! 
+ 
+
+What is something he/she could add to the README.md to make it more descriptive?
+Possibly give a breif overview of some of the themes in the game or the setting of the game. It looks fine!
+ 
+
+Pay a compliment to your peer based on the quality of his/her code.
+I see what you are doing with tellatale_game.py it looks nice. I love the pauses! The options are really cool. However, it doesn't seem to be bugless yet. I really enjoyed reading through your story and I hope to talk to you about what your inspiration was for this project! 
